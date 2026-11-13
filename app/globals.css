@@ -7,3 +7,10 @@
 
 /* Custom select indicator keeps a consistent inset across browsers. */
 select{appearance:none;-webkit-appearance:none;padding-right:42px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23183d32' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:16px 16px}
+
+/* Full-width plan, with a compact stacked layout on phones. */
+.plan-only .budget{width:100%;display:grid;grid-template-columns:1.1fr 1.3fr 1.4fr;gap:12px 32px;align-items:center}
+.plan-only .budget>.eyebrow{grid-column:1/-1;margin:0 0 4px}
+.plan-only .budget-bottom{border-top:0;border-left:1px solid #ccd5c5;margin:0;padding:0 0 0 28px;justify-content:space-around}
+.plan-only .budget p:last-child{margin:0;border-left:1px solid #ccd5c5;padding-left:28px}
+@media(max-width:650px){.plan-only .budget{grid-template-columns:1fr 1fr;gap:16px}.plan-only .budget-bottom{padding-left:16px;justify-content:space-between}.plan-only .budget p:last-child{grid-column:1/-1;border-left:0;border-top:1px solid #ccd5c5;padding:12px 0 0}}
