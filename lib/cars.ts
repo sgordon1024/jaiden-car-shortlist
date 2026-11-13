@@ -13,7 +13,9 @@ export const cars = [
     "url": "https://www.cars.com/vehicledetail/fc46ea25-4d64-4fa2-86ea-fcd5807ea5d9/",
     "assessment": "Best local budget starting point. Clean title; no accidents reported. Ask about prior nonpersonal (fleet/rental) use.",
     "safetyPick": false,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/1.jpg",
+    "photoIsStock": false
   },
   {
     "id": "2",
@@ -29,7 +31,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/464072676",
     "assessment": "Local with appealing mileage. Clean title; one accident and four owners. Inspect repairs.",
     "safetyPick": false,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/2.jpg",
+    "photoIsStock": false
   },
   {
     "id": "3",
@@ -45,7 +49,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/459207105",
     "assessment": "One owner, clean title, no accidents reported. Economical commuter; check underside rust.",
     "safetyPick": false,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/3.jpg",
+    "photoIsStock": false
   },
   {
     "id": "4",
@@ -61,7 +67,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/462031196",
     "assessment": "Clean title, no accidents reported. Stronger safety choice; higher mileage and near payment ceiling.",
     "safetyPick": true,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/4.jpg",
+    "photoIsStock": false
   },
   {
     "id": "5",
@@ -77,7 +85,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/462372497",
     "assessment": "One owner, clean title, no accidents reported. Check CVT service records; slight budget stretch.",
     "safetyPick": true,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/5.jpg",
+    "photoIsStock": false
   },
   {
     "id": "6",
@@ -93,7 +103,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/463827840",
     "assessment": "One owner, no accidents reported. Stronger safety choice; check service records and full title history.",
     "safetyPick": true,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/6.jpg",
+    "photoIsStock": false
   },
   {
     "id": "7",
@@ -109,7 +121,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/458938314",
     "assessment": "Clean title, no accidents reported, two owners. Price leaves room for repairs; longer trip.",
     "safetyPick": false,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/7.jpg",
+    "photoIsStock": false
   },
   {
     "id": "8",
@@ -125,7 +139,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/460298108",
     "assessment": "Clean title, no accidents reported. Lower mileage; age and travel are compromises.",
     "safetyPick": false,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/8.jpg",
+    "photoIsStock": false
   },
   {
     "id": "9",
@@ -141,7 +157,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/459899956",
     "assessment": "Clean title, no accidents reported. Good price/mileage balance; inspect corrosion and maintenance.",
     "safetyPick": false,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/9.jpg",
+    "photoIsStock": false
   },
   {
     "id": "10",
@@ -157,7 +175,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/461234668",
     "assessment": "Clean title, no accidents reported. Stronger safety choice; slight budget stretch and longer trip.",
     "safetyPick": true,
-    "tier": "Start here"
+    "tier": "Start here",
+    "photo": "/cars/10.jpg",
+    "photoIsStock": false
   },
   {
     "id": "11",
@@ -173,7 +193,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/462304595",
     "assessment": "One owner, clean title, no accidents reported. Over budget; IIHS choice only if built after October 2013.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/11.jpg",
+    "photoIsStock": false
   },
   {
     "id": "12",
@@ -189,7 +211,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/463660980",
     "assessment": "Clean title; one accident reported. Low mileage for the price. This SUV is front-wheel drive.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/12.avif",
+    "photoIsStock": true
   },
   {
     "id": "13",
@@ -205,7 +229,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/463226689",
     "assessment": "Clean title; one accident reported. Inspect repairs and maintenance.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/13.jpg",
+    "photoIsStock": false
   },
   {
     "id": "14",
@@ -221,7 +247,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/462813609",
     "assessment": "Clean title; one accident, three owners. Seller advertises new tires. High mileage for the price.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/14.jpg",
+    "photoIsStock": false
   },
   {
     "id": "15",
@@ -237,7 +265,9 @@ export const cars = [
     "url": "https://www.autotrader.com/cars-for-sale/inventory/791552597",
     "assessment": "Local private-sale SUV. Full history and exact pickup location still need confirmation.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/15.jpg",
+    "photoIsStock": false
   },
   {
     "id": "16",
@@ -253,7 +283,9 @@ export const cars = [
     "url": "https://www.facebook.com/marketplace/item/1794626734970507/",
     "assessment": "Seller reports new rear struts and EVAP work. Title and history not verified. Independent inspection essential.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/16.jpg",
+    "photoIsStock": false
   },
   {
     "id": "17",
@@ -269,7 +301,9 @@ export const cars = [
     "url": "https://www.facebook.com/marketplace/item/1184016500719832/",
     "assessment": "High-mileage backup. Title/history not verified. IIHS choice only if built after October 2013.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/17.jpg",
+    "photoIsStock": false
   },
   {
     "id": "18",
@@ -285,7 +319,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/460653583",
     "assessment": "One owner, clean title, no accidents reported. Only consider after front cross-member corrosion/recall inspection.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/18.jpg",
+    "photoIsStock": false
   },
   {
     "id": "19",
@@ -301,7 +337,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/462224423",
     "assessment": "One owner, clean title, no accidents reported. Require corrosion/recall documentation and underside inspection.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/19.jpg",
+    "photoIsStock": false
   },
   {
     "id": "20",
@@ -317,7 +355,9 @@ export const cars = [
     "url": "https://www.cargurus.com/details/402436188",
     "assessment": "Only under-50k candidate. Clean title; one accident reported. Age, rust, and cross-member recall checks still matter.",
     "safetyPick": false,
-    "tier": "Backup"
+    "tier": "Backup",
+    "photo": "/cars/20.jpg",
+    "photoIsStock": false
   }
 ];
 export type Car = typeof cars[number];

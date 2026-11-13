@@ -14,3 +14,5 @@ select{appearance:none;-webkit-appearance:none;padding-right:42px;background-ima
 .plan-only .budget-bottom{border-top:0;border-left:1px solid #ccd5c5;margin:0;padding:0 0 0 28px;justify-content:space-around}
 .plan-only .budget p:last-child{margin:0;border-left:1px solid #ccd5c5;padding-left:28px}
 @media(max-width:650px){.plan-only .budget{grid-template-columns:1fr 1fr;gap:16px}.plan-only .budget-bottom{padding-left:16px;justify-content:space-between}.plan-only .budget p:last-child{grid-column:1/-1;border-left:0;border-top:1px solid #ccd5c5;padding:12px 0 0}}
+
+.car-photo{position:relative;display:block;aspect-ratio:4/3;margin:-23px -23px 20px;overflow:hidden;border-radius:10px 10px 0 0;background:#e9eddf}.car-photo img{display:block;width:100%;height:100%;object-fit:contain}.photo-caption{position:absolute;bottom:9px;left:10px;background:#163b30e8;color:white;font-size:10px;padding:4px 7px;border-radius:4px;max-width:calc(100% - 20px)}@media(max-width:650px){.car-photo{margin:-22px -22px 20px}}

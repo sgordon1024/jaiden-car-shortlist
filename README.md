@@ -23,3 +23,7 @@ Run `npx tsc --noEmit` for type checking. Sites publication applies migrations t
 ## Research limitations
 
 Listings were checked November 13, 2026. Prices, mileage, availability and seller claims may change. This app does not automatically refresh listing data. All cars require independent inspection and financing/insurance confirmation. Payment estimates assume $1,500 down, 10% APR, 60 months, 8.75% tax and a $250 title/registration allowance; they are not loan offers. Insurance, maintenance and fuel are excluded. Build-date exceptions apply to IIHS recommendations.
+
+## Card photos
+
+Photos are local assets under `public/cars`, matched to each listing. Card 12 uses an explicitly labeled representative stock image from the VIN-matched Capital One listing because the seller has not supplied photos; trim may differ. Other photos are sourced from the linked seller listings. Photos remain the property of their respective owners.
