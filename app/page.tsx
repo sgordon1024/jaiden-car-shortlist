@@ -8,7 +8,7 @@ const payment=(p:number)=>Math.round((p*1.0875+250-1500)*(.1/12)/(1-Math.pow(1+.
 export default function Home(){
  const [key,setKey]=useState(''),[ready,setReady]=useState(false),[board,setBoard]=useState<Board>({states:[],notes:[]}),[sync,setSync]=useState('Opening shortlist…'),[error,setError]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState('');
  const [query,setQuery]=useState(''),[sort,setSort]=useState('rank'),[maxPrice,setMaxPrice]=useState(''),[maxMiles,setMaxMiles]=useState(''),[region,setRegion]=useState(''),[source,setSource]=useState(''),[view,setView]=useState('active'),[safe,setSafe]=useState(false),[author,setAuthor]=useState('');
- const [planOpen,setPlanOpen]=useState(true),[costsOpen,setCostsOpen]=useState(true);
+ const [planOpen,setPlanOpen]=useState(false),[costsOpen,setCostsOpen]=useState(false);
  const [selected,setSelected]=useState<string|null>(null);const [draft,setDraft]=useState('');const [noteId,setNoteId]=useState('');const dialog=useRef<HTMLDialogElement>(null);
  useEffect(()=>{const fromLink=new URLSearchParams(location.hash.slice(1)).get('board');let saved='';try{saved=localStorage.getItem('car-board')||'';setAuthor(localStorage.getItem('car-author')||'');}catch{}
  const k=fromLink||saved;if(/^[a-f0-9]{64}$/.test(k)){setKey(k);location.hash='board='+k;try{localStorage.setItem('car-board',k)}catch{}}else setSync('Preview · create a shared board to save changes');setReady(true);},[]);
